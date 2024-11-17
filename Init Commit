@@ -1,0 +1,49 @@
+int intOperandA = 1;
+int intOperandB = 5;
+int intSum = 0;
+int intProduct = 0;
+int intDifference = 0;
+int intQuotient = 0;
+int intModulo = 0;
+double doubleOperandA = 3.50;
+double doubleOperandB = 7.25;
+double doubleSum = 0.0;
+double doubleProduct = 0.0;
+double doubleDifference = 0.0;
+double doubleQuotient = 0.0;
+// Integer arithmetic operations
+intSum = intOperandA + intOperandB;
+System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
+
+intProduct = intOperandA * intOperandB;
+System.out.println("The product using ints of " + intOperandA + " and " + intOperandB + " is " + intProduct);
+
+intDifference = intOperandA - intOperandB;
+System.out.println("The difference using ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
+
+intQuotient = intOperandA / intOperandB;
+System.out.println("The quotient using ints of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
+
+intModulo = intOperandA % intOperandB;
+System.out.println("The modulo using ints of " + intOperandA + " and " + intOperandB + " is " + intModulo);
+// Double arithmetic operations
+doubleSum = doubleOperandA + doubleOperandB;
+System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+
+doubleProduct = doubleOperandA * doubleOperandB;
+System.out.println("The product using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+
+doubleDifference = doubleOperandA - doubleOperandB;
+System.out.println("The difference using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+
+doubleQuotient = doubleOperandA / doubleOperandB;
+System.out.println("The quotient using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+double price = 100.00; // Example price
+double salesTax = price * 0.05; // 5% sales tax
+double totalPrice = price + salesTax;
+System.out.println("Price: $" + price);
+System.out.println("Sales tax (5%): $" + salesTax);
+System.out.println("Total price: $" + totalPrice);
+Price: $100.0
+Sales tax (5%): $5.0
+Total price: $105.0
